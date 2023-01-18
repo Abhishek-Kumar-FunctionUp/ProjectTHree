@@ -1,0 +1,32 @@
+.form{
+    width: 45rem;
+    height: 45rem;
+    background-color: rgb(218, 35, 35);
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    border-radius: 10px;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background-color:   #272f35;
+    height: 100vh;
+    position: relative;
+}
+.form hr{
+    width: 8.4rem;
+    height: 0px;
+}
+.form h4{
+    margin-top:30px;
+    font-weight: 300;
+}
+@media  (max-width:720px) {
+    .main{
+        background-color: black;
+    }
+}

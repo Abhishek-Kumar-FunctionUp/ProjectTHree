@@ -1,0 +1,85 @@
+.form{
+    width: 45rem;
+    height: 47rem;
+    background-color: rgb(218, 35, 35);
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    border-radius: 10px;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background-color:   #272f35;
+    height: 100vh;
+    position: relative;
+}
+.heading{
+    font-size: 1em;
+}
+
+.div{
+    display: flex;
+    position: relative;
+    gap: 1rem;
+}
+
+.inp1{
+    height: 6vh;
+    color:black
+     ;
+}
+.submit{
+    height: 2.5rem;
+    width: 298px;
+    font-size: 1rem;
+    border: 0;
+    color: #000000;
+    border-radius: 20px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    font-weight: 400;
+}
+.form hr{
+    width: 8.4rem;
+    height: 0px;
+}
+.form h4{
+    margin-top:30px;
+    font-weight: 300;
+}
+.input1{
+    height: 56px;
+    border-radius: 10px;
+    width: 35vw;
+    border: none;
+    padding: 20px 14px 2px 14px;
+    /* padding-right: 10px; */
+    margin: 10;
+    margin: 12px;
+    font-size: 16px;
+    line-height: 1;
+    outline: none;
+    box-shadow: none;
+    transition: 200ms cubic-bezier(0, 0, 0.2, 1) 0ms;
+    color: black;
+    background-color: white;
+    justify-content: center;
+    display: flex;
+
+}
+.date{
+    display: flex;
+    
+}
+
+@media  (max-width:720px) {
+    .main{
+        background-color: black;
+    }
+}
